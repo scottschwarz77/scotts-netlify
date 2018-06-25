@@ -1,2 +1,0 @@
-/weather	http://weather.com
-/netlify/:anything	https://www.google.com/search?q=:anything
