@@ -1,0 +1,25 @@
+baseurl = "https://example.org/"
+languageCode = "en-us"
+title = "Natrium Theme"
+theme = "hugo-natrium-theme"
+preserveTaxonomyNames = true
+rssLimit = 10
+paginate = 10
+pygmentsCodefences = true
+pygmentsStyle = "native"
+
+[taxonomies]
+    category = "categories"  
+    tag = "tags"
+
+[permalinks]
+    post = "/:slug/"
+    page = "/:slug/"
+
+[[menu.main]]
+    name = "Support"
+    url = "/support/"
+    weight = -110
+
+[params]
+    description = ""
